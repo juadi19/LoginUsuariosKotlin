@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:background="@color/white"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginRight="40dp"
+
+        android:layout_marginTop="100dp">
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Inicio de Sesión"
+
+            android:textColor="#000"
+
+            android:textSize="30dp"
+
+            android:id="@+id/textdisplay"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            app:layout_constraintRight_toRightOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+
+            android:textSize="20dp"
+
+            android:textColor="#000"
+
+            android:id="@+id/usernametextview"
+
+            android:text="Nombre de usuario">
+
+        </TextView>
+
+        <EditText
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+
+            android:hint="Ingresa un nombre de usuario aquí"
+
+            android:id="@+id/username">
+
+        </EditText>
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+
+            android:textSize="20dp"
+
+            android:textColor="#000"
+
+            android:id="@+id/passwordtextview"
+
+            android:text="Contraseña">
+
+        </TextView>
+
+        <EditText
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+
+            android:inputType="textPassword"
+
+            android:hint="Ingresa una contraseña aquí"
+
+            android:id="@+id/password">
+
+        </EditText>
+
+        <Button
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+
+            android:id="@+id/loginbutton"
+
+            android:text="Iniciar Sesión">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
